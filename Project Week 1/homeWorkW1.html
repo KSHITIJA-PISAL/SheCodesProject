@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main-class {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .weatherHeadClass {
+        color: #1a64d6;
+        color: transparent;
+        text-shadow: 0 0 0 #1a64d6;
+      }
+      h1 {
+        font-size: 35px;
+        margin: 0px;
+      }
+      .h1End {
+        font-size: 35px;
+        margin: 0px 0px 20px 0px;
+      }
+      .fontWnormal {
+        font-size: 35px;
+        font-weight: normal;
+      }
+      .weatherClass {
+        width: 400px;
+        margin: auto auto;
+        padding: 10px 0;
+        transition: all 200ms ease;
+      }
+      .weatherClass:hover {
+        background: #fffaee;
+        border-radius: 12px;
+      }
+      .dark {
+        color: #000000;
+        color: transparent;
+        text-shadow: 0 0 0 #000000;
+      }
+      button {
+        background: #1a64d6;
+        border-radius: 30px;
+        padding: 18px 25px;
+        color: #ffffff;
+        font-size: 16px;
+        border: 1px solid;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0px;
+        cursor: pointer;
+        transition: all 200ms ease;
+        margin: 20px auto 10px;
+      }
+      button:hover {
+        background: #ffffff;
+        color: #1a64d6;
+        border: 1px solid #1a64d6;
+      }
+      p {
+        color: gray;
+        font-weight: normal;
+        font-family: monospace;
+        font-size: 18px;
+      }
+      .lightGrey {
+        color: rgb(99, 98, 98);
+        font-family: monospace;
+        margin-bottom: 20px;
+        display: block;
+      }
+      span {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-class">
+      <div class="weatherHeadClass">
+        <h1>🌤 <br />Currently 21° in Tokyo</h1>
+      </div>
+      <h1 class="h1End">
+        <span class="fontWnormal">13° / </span><strong>23°</strong>
+      </h1>
+      <div class="weatherClass">
+        <h3 class="dark">🌧 Tomorrow</h3>
+        <span class="lightGrey">10° / <strong>22°</strong></span>
+      </div>
+      <div class="weatherClass">
+        <h3 class="dark">🌥 Saturday</h3>
+        <span class="lightGrey">15° / <strong>17°</strong></span>
+      </div>
+      <div class="weatherClass">
+        <h3>☀️ Sunday</h3>
+        <span class="lightGrey">25° / <strong>28°</strong></span>
+      </div>
+      <button>Change city</button>
+      <p>Coded by Kshitija Pisal</p>
+    </div>
+  </body>
+</html>
